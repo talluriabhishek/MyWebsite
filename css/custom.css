@@ -1,0 +1,180 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #696969;
+}
+
+a{
+	text-decoration: none;
+	color: #888888;
+}
+
+h1 , h2{
+	color: #006666;
+	font-family: 'Cabin', sans-serif;
+}
+
+h1{
+	font-weight: 700;
+	margin: 0 auto;
+	padding: 10px 0 0; 
+	text-align: center;
+}
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 0 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  background: lightblue;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Cabin', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: 700;
+  line-height: 0.8em;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 400;
+  padding: 15px 10px;
+}
+
+nav a, nav a:visited {
+  color: ##008B8B;
+}
+
+nav a.selected, nav a:hover {
+	/*color: #32673f;*/
+	color: #003300;
+}
+
+
+/**********************************
+section
+***********************************/
+
+div{
+	float: left;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0;
+	/*background: red;*/
+}
+
+
+#pic img {
+	/*margin: */
+	display: block;
+	border-radius: 100%;
+	max-width: 150px;
+	/*max-height: 150px;*/
+	margin: 10px auto 30px;
+	/*margin: 5% 42.5% 5%;*/
+	/*background: grey;*/
+
+}
+
+#desc p{
+	width:50%;
+	margin: 0% 25% 0%;
+	padding: 0;
+	text-align: center;
+
+
+}
+/**********************************
+footer
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social_logo {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/**********************************
+Portfolio : Education
+***********************************/
+
+#Masters h1,h2,p{
+	text-align: left;
+	
+	margin: 0 auto;
+	padding: 10px 50px 0; 
+	/*text-align: center;*/
+}
+
+#Masters h1{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+}
+
+
+#Masters h2{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+}
+
+#Bachelors h1,h2,p{
+	text-align: left;
+	
+	margin: 0 auto;
+	padding: 10px 50px 0; 
+	/*text-align: center;*/
+}
+
+#Bachelors h1{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+}
+
+
+#Bachelors h2{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+}
+
+
+
+
+
